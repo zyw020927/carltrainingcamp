@@ -7,9 +7,3 @@ Each blog post will include five sections:
 3. thoughts after tutorial
 4. challenges encountered during the implementation
 5. gains and study duration
-```python
-def hello_world():
-    print("Hello, World!")
-
-hello_world()
-
