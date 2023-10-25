@@ -34,6 +34,7 @@ class Solution:
             else:
                 return middle  # 数组中找到目标值，直接返回下标
         return -1  # 未找到目标值
+```
 
 27. 移除元素
 
