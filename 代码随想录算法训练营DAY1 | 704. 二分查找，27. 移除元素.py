@@ -7,9 +7,7 @@
 重点：target所在区间
 引申：循环不变量法则
 
-```html
-<div style="background-color: #000000; padding: 10px; border-radius: 5px;">
-    <pre><code class="python">
+```python
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         # 定义target在左闭右闭的区间里，[left, right]
@@ -36,8 +34,7 @@ class Solution:
             else:
                 return middle  # 数组中找到目标值，直接返回下标
         return -1  # 未找到目标值
-    </code></pre>
-</div>
+```
 
 27. 移除元素
 
