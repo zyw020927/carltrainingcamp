@@ -7,7 +7,7 @@
 重点：target所在区间
 引申：循环不变量法则
 
-```python[]
+```
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         # 定义target在左闭右闭的区间里，[left, right]
